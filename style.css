@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: rgb(2, 2, 81);
+    margin: 0;
+}
+
+h1 {
+
+    font-style: italic;
+    text-align: center;
+    color: yellow;
+}
+
+img {
+    display: block; /* Hace que la imagen se comporte como un bloque */
+    margin: 40px auto; /* Centra la imagen horizontalmente y le da margen superior e inferior */
+    max-width: 100%; /* Ajusta la imagen al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.image-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente el botón con respecto a la imagen */
+    justify-content: center; /* Centra horizontalmente el contenedor de la imagen */
+    position: relative; /* Necesario para el posicionamiento absoluto del botón */
+}
+
+
+button {
+    position: absolute;
+    right: 470px; /* Ajusta la distancia desde el borde derecho de la imagen */
+    top: 350px;
+    background-color: rgb(224, 0, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
